@@ -1,0 +1,126 @@
+h1 {
+
+	color: white;
+	font-size: 260%;
+	font-family: 'Gaegu';
+	transform:translate(25%,150%) ;
+
+}
+
+h2 {
+
+	font-size: 200%;
+	padding: 20px;
+}
+
+img {
+
+	width: 500px;
+}
+
+#banner {
+	z-index: 1;
+	width: 100%;
+	border-radius: 10px;
+	position: relative;
+}
+
+#logo {
+
+	width: 30%;
+	transform: translate(0,-30%);
+}
+
+#user_icon {
+
+	width: 5%;
+}
+
+#menu_icon {
+
+	width: 2%;
+	transform: translate(0,-20%);
+}
+
+body {
+
+	text-align: center;
+	background-color: #ADD8E6;
+}
+
+p {
+
+	font-size: 100%;
+	color: black;
+}
+
+a{
+
+	text-decoration:none;
+}
+
+.cards {
+
+	width: 330px;
+	height: 330px;
+	object-fit: cover;
+	border-radius: 20px;
+	border-width: 5px;
+	border: 10px solid whitesmoke;
+
+}
+
+li{
+
+	list-style-type: none;
+	padding: 10px;
+}
+
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+#top_banner {
+
+	display: flex;
+}
+
+.logos_text {
+	z-index: 2;
+
+	position: absolute;
+}
+
+#top_banner > div {
+
+	transform: translate(42%,60%);
+}
+
+#get_inspired {
+
+	background-color: royalblue;
+	padding: 5 px;
+	border-radius: 5px;
+	transform: translate(20%,750%);
+}
+
+#cards {
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#navigation_menu {
+
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+
+
+
+
+
